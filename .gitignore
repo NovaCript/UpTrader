@@ -1,0 +1,29 @@
+plaintext
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Poetry
+.venv
+.poetry
+.poetry.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Miscellaneous
+*.swp
+.DS_Store
+/machinet.conf
+/poetry.lock

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "uptrader"
+version = "0.1.0"
+description = "TestProject"
+authors = ["NovaCript"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.6"
+django = "^5.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
