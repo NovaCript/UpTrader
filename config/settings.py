@@ -29,6 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+INIT_APP = [
+    'menu',
+]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -37,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-]
+] + INIT_APP
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -54,7 +57,7 @@ ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['templates',],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
