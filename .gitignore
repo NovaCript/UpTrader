@@ -27,3 +27,4 @@ db.sqlite3-journal
 .DS_Store
 /machinet.conf
 /poetry.lock
+/menu/migrations/
