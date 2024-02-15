@@ -21,11 +21,11 @@ poetry install
 ```
 
 Проводим миграции, создаем суперпользователя, запускаем сервер.
-
->python manage.py migrate<br>
->python manage.py createsuperuser<br>
->python manage.py runserver<br>
-
+```
+python manage.py migrate
+python manage.py createsuperuser<br>
+python manage.py runserver<br>
+```
 
 В меню создаем родителя который будет вызываться при помощи включения в файл нашей страницы
 
