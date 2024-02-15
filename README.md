@@ -10,5 +10,4 @@
 
 Зависимости можно установить при помощи pip install -r requirements.txt<br>
 Либо poerty.<br>
-{% filename %}command-line{% endfilename %}
 
