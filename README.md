@@ -14,7 +14,6 @@
  >pip install -r requirements.txt
 <br>
 Либо poerty.
-<br>
   >poetry install
 <br>
 Проводим миграции, создаем суперпользователя.
