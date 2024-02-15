@@ -8,6 +8,7 @@
 
 
 
-Зависимости можно установить при помощи pip install -r requirements.txt<br>
+Зависимости можно установить при помощи 
+'''pip install -r requirements.txt'''
 Либо poerty.<br>
 
