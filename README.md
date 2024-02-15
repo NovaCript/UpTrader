@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=\(\(\(\(\(:++^_^++:\)\)\)\)\))](https://git.io/typing-svg)
 
-<h5> Stack:</h5>Django
+><h5> Stack:</h5>Django<
 
 
 
