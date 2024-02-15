@@ -10,7 +10,10 @@
 
 
 Зависимости можно установить при помощи pip
- >pip install -r requirements.txt<br>
+ >pip install -r requirements.txt
+<br>
 Либо poerty.
+<br>
+
 
 
