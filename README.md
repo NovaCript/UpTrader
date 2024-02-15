@@ -11,10 +11,13 @@
 
 
 Зависимости можно установить при помощи pip
+
 '''
 pip install -r requirements.txt
 '''
+
 Либо poerty.
+
 '''
 poetry install
 '''
