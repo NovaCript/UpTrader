@@ -13,12 +13,15 @@
 Зависимости можно установить при помощи pip
  >pip install -r requirements.txt
 <br>
+
 Либо poerty.
   >poetry install
 <br>
-Проводим миграции, создаем суперпользователя.
-<br>
-<br>
+
+Проводим миграции, создаем суперпользователя, запускаем сервер.
+>python manage.py migrate
+>python manage.py createsuperuser
+>python manage.py runserver
 <br>
 В меню создаем родителя который будет вызываться при помощи включения в файл нашей страницы (не забудте загрузить {% load menu_tags %} на страничке.)<br>
   >{% draw_menu 'main_menu' %}
