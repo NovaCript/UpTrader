@@ -7,3 +7,8 @@
 ><h5> Stack:</h5>Django<br>
 
 
+
+Зависимости можно установить при помощи pip install -r requirements.txt<br>
+Либо poerty.<br>
+{% filename %}command-line{% endfilename %}
+
