@@ -15,7 +15,7 @@
 <br>
 Либо poerty.
 <br>
- >poetry install
+  >poetry install
 <br>
 Проводим миграции, создаем суперпользователя.
 <br>
