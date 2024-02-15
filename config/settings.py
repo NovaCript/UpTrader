@@ -60,6 +60,9 @@ TEMPLATES = [
         "DIRS": ['templates',],
         "APP_DIRS": True,
         "OPTIONS": {
+            'libraries': {
+                'menu_tags': 'menu.templatetags.menu_tags',
+            },
             "context_processors": [
                 "django.template.context_processors.debug",
                 "django.template.context_processors.request",
