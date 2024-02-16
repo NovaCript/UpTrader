@@ -33,6 +33,9 @@ python manage.py runserver
 В меню создаем родителя который будет вызываться при помощи включения в файл нашей страницы.
 
 URL генерируется автоматически. 
+<img width="68" alt="Снимок экрана 2024-02-16 182524" src="https://github.com/NovaCript/UpTrader/assets/114811823/f6a800d0-f6d2-47f4-9025-df934bd2d0c8">
+<img width="150" alt="Снимок экрана 2024-02-16 182515" src="https://github.com/NovaCript/UpTrader/assets/114811823/738601ee-c1a9-4920-aef6-02b135f6393a">
+
 
 > Не забудте загрузить {% load menu_tags %} на страничке. {% draw_menu 'main_menu' %}
 
