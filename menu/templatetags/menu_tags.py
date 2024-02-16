@@ -17,11 +17,11 @@ def draw_menu(menu_name):
     <ul>
         {% for menu_item in menu_items %}
             <li class="dropdown">
-                <a href={{menu_item.url}}>{{ menu_item.title }}</a>
+                <a href={{menu_item.get_absolute_url}}>{{ menu_item.title }}</a>
                     {% if menu_item.children.exists %}
                         <div class="dropdown-content">
                             {% for child in menu_item.children.all %}
-                                <a href={{child.url}}>{{ child.title }}</a>
+                                <a href={{child.get_absolute_url}}>{{ child.title }}</a>
                             {% endfor %}
                         </div>
                     {% endif %}

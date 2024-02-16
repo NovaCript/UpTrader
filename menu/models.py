@@ -5,9 +5,6 @@ class MenuItem(models.Model):
     title = models.CharField(
         max_length=100,
     )
-    url = models.CharField(
-        max_length=100,
-    )
     parent = models.ForeignKey(
         'self',
         null=True,
@@ -18,3 +15,6 @@ class MenuItem(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return f'/{self.title.replace(" ", "-")}'
